@@ -7,4 +7,4 @@ def prime?(num)
   true
 end
 
-prime?(0..1000)
+prime?(1..1000)
