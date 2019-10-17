@@ -1,5 +1,5 @@
 def prime?(num)
-  num.to_a
+
   
   num.to_a.each do |n|
     return false if n % n == 0
@@ -7,4 +7,4 @@ def prime?(num)
   true
 end
 
-prime?(0..1000)
+prime?(1..1000)
