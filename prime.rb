@@ -6,3 +6,5 @@ def prime?(num)
   end
   true
 end
+
+prime?(1..1000)
