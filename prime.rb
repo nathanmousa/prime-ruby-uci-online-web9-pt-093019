@@ -1,5 +1,5 @@
 def prime?(num)
-  array = (0..num).to_a
+  array = (1..num).to_a
   
   array.each do |n|
     return false if n % n == 0
